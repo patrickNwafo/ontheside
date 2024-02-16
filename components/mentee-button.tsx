@@ -2,12 +2,13 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import Logo from "@/images/logos/img1.jpeg";
+import { IoSearch } from "react-icons/io5";
 
-const MenteeMentorButton = () => {
+const MenteePage = () => {
     return (
         <div className="">
             <div className="flex justify-center items-center py-10 m-10">
-                <Link href="/menteepage">
+                <Link href="#">
                     <Button
                         variant="outline"
                         className="w-40 h-10 md:w-[400px] md-h-[50px text-2xl"
@@ -26,16 +27,24 @@ const MenteeMentorButton = () => {
             </div>
             <div className="flex justify-center items-center text-wrap text-[30px] py-8 m-10">
                 <h1>
-                    Mentor the next generation of founder&apos;s, one step at a
-                    time
+                    Empowering you with expert advice that won&apos;t break the
+                    bank
                 </h1>
             </div>
+
             <div className="flex flex-col items-center justify-center">
-                <Link href="/mentorprofile">
-                    <Button className="w-60 h-10 md:w-[800px] md:h-[50px] text-2xl">
-                        Become a Mentor
-                    </Button>
-                </Link>
+                <div className="relative flex items-center">
+                    <input
+                        type="text"
+                        name="username"
+                        className="bg-white border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-60 h-10 md:w-[800px] md:h-[50px] text-2xl"
+                        placeholder="What sector are you operating in?"
+                    />
+                    <IoSearch
+                        className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+                        size={30}
+                    />
+                </div>
             </div>
 
             <div className=" w-full p-4 mt-[100px] mb-[100px] flex items-center justify-center">
@@ -65,9 +74,10 @@ const MenteeMentorButton = () => {
                         />
                     </div>
                 </div>
+                d
             </div>
         </div>
     );
 };
 
-export default MenteeMentorButton;
+export default MenteePage;

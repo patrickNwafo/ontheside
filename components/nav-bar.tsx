@@ -5,6 +5,7 @@ import Logo from "@/images/logos/img1.jpeg";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { FaSearch } from "react-icons/fa";
+import { IoSearch } from "react-icons/io5";
 
 const NavBar = () => {
     return (
@@ -24,12 +25,21 @@ const NavBar = () => {
                                 className="rounded-full w-12"
                             />
                         </Link>
-                        <div className="hidden md:flex">
-                            <Input placeholder="Search for?" />
-                            <Button>
-                                <FaSearch />
-                            </Button>
+                       
+                        <div className="hidden md:flex relative">
+                            <input
+                                type="text"
+                                name="username"
+                                className="bg-white border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-60 h-10 md:w-[600px] md:h-[40px] text-2xl"
+                                placeholder="What sector are you operating in?"
+                            />
+
+                            <IoSearch
+                                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+                                size={30}
+                            />
                         </div>
+
                         <div className="flex items-center gap-8 md:gap-12">
                             <div>My Profile</div>
                             <div>My Mentees</div>

@@ -1,12 +1,13 @@
 import Container from "@/components/Container";
-import MenteeMentorButton from "@/components/mentor&mentee-button";
+import MenteePage from "@/components/mentee-button";
+import NavBar from "@/components/nav-bar";
 
 export default function Home() {
     return (
         <div className="p-8">
             <Container>
                 <div>
-                    <MenteeMentorButton />
+                    <MenteePage />
                 </div>
             </Container>
         </div>
