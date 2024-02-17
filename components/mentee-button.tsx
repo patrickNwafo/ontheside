@@ -11,7 +11,7 @@ const MenteePage = () => {
                 <Link href="#">
                     <Button
                         variant="outline"
-                        className="w-40 h-10 md:w-[400px] md-h-[50px text-2xl"
+                        className="w-40 h-10 md:w-[300px] md-h-[50px] text-2xl"
                     >
                         Mentee
                     </Button>
@@ -19,7 +19,7 @@ const MenteePage = () => {
                 <Link href="/homepage">
                     <Button
                         variant="outline"
-                        className="w-40 h-10 md:w-[400px] md-h-[50px] text-2xl"
+                        className="w-40 h-10 md:w-[300px] md-h-[50px] text-2xl"
                     >
                         Mentor
                     </Button>
@@ -37,7 +37,7 @@ const MenteePage = () => {
                     <input
                         type="text"
                         name="username"
-                        className="bg-white border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-60 h-10 md:w-[800px] md:h-[50px] text-2xl"
+                        className="bg-white border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-60 h-10 md:w-[600px] md:h-[50px] text-2xl"
                         placeholder="What sector are you operating in?"
                     />
                     <IoSearch

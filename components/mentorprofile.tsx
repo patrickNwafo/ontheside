@@ -29,7 +29,9 @@ const Profile = () => {
             </div>
             <div className="m-8">
                 <Link href="/profiledescription">
-                    <Button className="w-[400px] md:w-full">Next</Button>
+                    <Button className="w-[300px] items-center md:w-full">
+                        Next
+                    </Button>
                 </Link>
             </div>
         </div>

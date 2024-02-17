@@ -3,27 +3,27 @@ import { IoIosArrowBack } from "react-icons/io";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 
-const EducationDetails = () => {
+const IndustryExperience = () => {
     return (
         <div>
             <div>
                 <div className=" pt-12 px-12">
-                    <Link href="/profiledescription">
+                    <Link href="/educationdetails">
                         <IoIosArrowBack size={40} />{" "}
                     </Link>
                 </div>
             </div>
             <div className=" pt-3 px-14">
-                <h1 className="text-[50px]">Education Details</h1>
+                <h1 className="text-[50px]">Industry Experience</h1>
             </div>
             <div className=" border-3 rounded-2xl shadow-md px-[30px] m-[20px]">
                 <div className=" px-[30px]">
                     <form action="submit">
                         <div className="py-4">
-                            <Input placeholder="University /College / Institute" />
+                            <Input placeholder="Company" />
                         </div>
                         <div className="py-4">
-                            <Input placeholder="Course / Degree" />
+                            <Input placeholder="Position" />
                         </div>
                         <div className="py-4">
                             <Input placeholder="From Date" />
@@ -54,4 +54,4 @@ const EducationDetails = () => {
     );
 };
 
-export default EducationDetails;
+export default IndustryExperience;

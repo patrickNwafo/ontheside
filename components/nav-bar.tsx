@@ -25,12 +25,12 @@ const NavBar = () => {
                                 className="rounded-full w-12"
                             />
                         </Link>
-                       
+
                         <div className="hidden md:flex relative">
                             <input
                                 type="text"
                                 name="username"
-                                className="bg-white border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-60 h-10 md:w-[600px] md:h-[40px] text-2xl"
+                                className="bg-white border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-40 h-10 md:w-[300px] md:h-[40px] text-sm"
                                 placeholder="What sector are you operating in?"
                             />
 

@@ -10,7 +10,7 @@ const MenteeMentorButton = () => {
                 <Link href="/menteepage">
                     <Button
                         variant="outline"
-                        className="w-40 h-10 md:w-[400px] md-h-[50px text-2xl"
+                        className="w-40 h-10 md:w-[300px] md-h-[50px] text-2xl"
                     >
                         Mentee
                     </Button>
@@ -18,7 +18,7 @@ const MenteeMentorButton = () => {
                 <Link href="/homepage">
                     <Button
                         variant="outline"
-                        className="w-40 h-10 md:w-[400px] md-h-[50px] text-2xl"
+                        className="w-40 h-10 md:w-[300px] md-h-[50px] text-2xl"
                     >
                         Mentor
                     </Button>
@@ -32,7 +32,7 @@ const MenteeMentorButton = () => {
             </div>
             <div className="flex flex-col items-center justify-center">
                 <Link href="/mentorprofile">
-                    <Button className="w-60 h-10 md:w-[800px] md:h-[50px] text-2xl">
+                    <Button className="w-30 h-10 md:w-[600px] md:h-[50px] text-2xl">
                         Become a Mentor
                     </Button>
                 </Link>
