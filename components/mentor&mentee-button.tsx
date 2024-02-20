@@ -6,11 +6,11 @@ import Logo from "@/images/logos/img1.jpeg";
 const MenteeMentorButton = () => {
     return (
         <div className="">
-            <div className="flex justify-center items-center py-10 m-10">
+            <div className="flex justify-center items-center py-5 m-5">
                 <Link href="/menteepage">
                     <Button
                         variant="outline"
-                        className="w-40 h-10 md:w-[300px] md-h-[50px] text-2xl"
+                        className=" w-32 font-bold text-1xl md:w-[300px] md:h-[50px] md:text-2xl"
                     >
                         Mentee
                     </Button>
@@ -18,14 +18,14 @@ const MenteeMentorButton = () => {
                 <Link href="/homepage">
                     <Button
                         variant="outline"
-                        className="w-40 h-10 md:w-[300px] md-h-[50px] text-2xl"
+                        className="w-32 font-bold text-1xl md:w-[300px] md:h-[50px] md:text-2xl"
                     >
                         Mentor
                     </Button>
                 </Link>
             </div>
-            <div className="flex justify-center items-center text-wrap text-[30px] py-8 m-10">
-                <h1>
+            <div className="flex justify-center items-center text-wrap py-5 m-5">
+                <h1 className=" font-bold w-[290px] text-center md:text-2xl md:w-[600px]">
                     Mentor the next generation of founder&apos;s, one step at a
                     time
                 </h1>
