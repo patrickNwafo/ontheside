@@ -2,6 +2,8 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import Logo from "@/images/logos/img1.jpeg";
+import Img2 from "@/images/img2.jpeg";
+import Img3 from "@/images/img3.jpeg";
 
 const MenteeMentorButton = () => {
     return (
@@ -50,18 +52,18 @@ const MenteeMentorButton = () => {
                     </div>
                     <div className="py-2 px-1  flex items-center justify-center flex-col gap-6 bg-[#efe7ee] rounded-full">
                         <Image
-                            src={Logo}
+                            src={Img2}
                             alt="img"
                             width={130}
                             height={130}
-                            className="rounded-full p-1"
+                            className="rounded-full p-1 rotate-[35deg] m-1"
                         />
                         <Image
-                            src={Logo}
+                            src={Img3}
                             alt="img"
-                            width={130}
-                            height={130}
-                            className="rounded-full p-1"
+                            width={125}
+                            height={125}
+                            className="rounded-full p-1 rotate-[35deg] m-1"
                         />
                     </div>
                 </div>
